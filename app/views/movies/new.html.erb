@@ -9,7 +9,7 @@
       Title
     </label>
 
-    <input type="text" id="title_box" name="query_title">
+    <input type="text" id="title_box" name="query_title" value="<%= cookies[:title] %>">
   </div>
 
   <div>
@@ -17,7 +17,7 @@
       Description
     </label>
 
-    <textarea id="description_box" name="query_description" rows="3"></textarea>
+    <textarea id="description_box" name="query_description" rows="3" value="<%= cookies[:description] %>"></textarea>
   </div>
 
   <div>
